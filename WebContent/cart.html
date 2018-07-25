@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="./tianmao/tianmao/css/cart.css">
+		<script type="text/javascript" src="./tianmao/tianmao/js/util.js"></script>
+		<script type="text/javascript" src="./tianmao/tianmao/js/server.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<h1>购物车</h1>
+			<h3><a href="index.html">返回商品列表</a></h3>
+			<table id="table" border="1" class="hide">
+				<thead>
+					<tr>
+						<th>
+							<input type="checkbox" id="allCheck" class="ck" />全选 
+						</th>
+						<th>图片</th>
+						<th>描述</th>
+						<th>数量</th>
+						<th>单价</th>
+						<th>小计</th>
+						<th>操作</th>
+					</tr>
+				</thead>
+				<tbody id="tbody"></tbody>
+			</table>
+			<div class="box" id="box">购物车里没有任何商品</div>
+			<h2 id="h2" class="">总价格：￥<span id="totalPrice">0</span></h2>
+		</div>
+	</body>
+	<script type="text/javascript" src="./tianmao/tianmao/js/cart.js"></script>
+</html>
